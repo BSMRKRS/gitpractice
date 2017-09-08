@@ -16,4 +16,9 @@ A: Someone will always be in charge of the master branch. It may be the reposito
 Q: Are master and origin the same thing?
 A:
 
+Q: Who is better messi or ronoldo 
+A: defintly messi 
+
+
+
 Q: What happens if someone has already modified master again?
