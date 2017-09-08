@@ -13,6 +13,8 @@ A: Someone will always be in charge of the master branch. It may be the reposito
 Q: Are master and origin the same thing?
 A:
 
+#Ian you owe me 5 bucks.
+
 Q: Will everyone use git?
 I MADE CHANGES
 I DID SO MUCH
