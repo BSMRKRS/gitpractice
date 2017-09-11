@@ -6,5 +6,17 @@ What is your favorite shape?
 
 how do i even do this?
 
+<<<<<<< HEAD
 
  It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
+=======
+Q: When can I push to master?
+A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
+
+Q: Are master and origin the same thing?
+A:
+
+Q: How tall is the Dr.?
+
+Ian smells rather nice today!
+>>>>>>> 0b5a6842382df2d86536473ccf110c8cdc3fc07f
