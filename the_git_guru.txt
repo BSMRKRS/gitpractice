@@ -18,6 +18,4 @@ A:
 
 Q: What happens if someone has already modified master again?
 
-Q: Why am I Mehdi?
-
-Nothing is working!!!!
+Q: What is a pull request?
