@@ -1,3 +1,4 @@
+
 Welcome to the Git Guru!
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
@@ -5,6 +6,8 @@ Please add a question below. If it's an especially good question -- or a questio
 
 Q: How many pieces of pie could you eat if you were in space?
 
+Q: Is gravity pushing us up or pulling us down
+:wq
 
 #################
 ## Past questions
