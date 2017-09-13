@@ -3,11 +3,20 @@ Please add a question below. If it's an especially good question -- or a questio
 
 ### Put your question here!
 
+Q: How many pieces of pie could you eat if you were in space?
+
+
 #################
 ## Past questions
 #################
 
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
+<<<<<<< HEAD
 how old are you?
 What is your favorite color?
+=======
+
+Q: Are master and origin the same thing?
+A:
+>>>>>>> eca878a30b0ff230410292c38d72256797a4367b
