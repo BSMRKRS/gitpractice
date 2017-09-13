@@ -3,7 +3,11 @@ Please add a question below. If it's an especially good question -- or a questio
 
 ### Put your question here!
 
-Q: this is my test question, is it a good question?
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> c84aa2d125f92b79ace5f56aecb145bcbeba04d1
 
 #################
 ## Past questions
