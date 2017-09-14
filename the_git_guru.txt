@@ -3,14 +3,8 @@ Please add a question below. If it's an especially good question -- or a questio
 
 ### Put your question here!
 
-<<<<<<< HEAD
 Q: How many pieces of pie could you eat if you were in space? ??????
-this is taking so long smh !!!!!!
-=======
-Q: Im so lost
 
-
->>>>>>> 3f74e13e32710395b3c12f4026b9ae19a0f40ec2
 #################
 ## Past questions
 #################
