@@ -6,7 +6,7 @@ def add(c, d):
     print "ADDING %s + %s" %(c, d)
     return c + d
 
-field_goals = multiply(12, 2)
+field_goals = 2 * input("Enter a number:")
 three_pointers = add(18, 13)
 
 print "field_goals: %d, three_pointers: %d" %(field_goals, three_pointers)
