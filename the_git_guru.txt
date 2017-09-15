@@ -2,7 +2,9 @@ Welcome to the Git Guru!
 
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
-### Put your question here!
+
+Q: What companies use GitHub and why do they use it, is there similar services ?
+
 Q: How much wood could a wood chuck chuck if a wood chuck could chuck wood?
 #################
 ## Past questions
