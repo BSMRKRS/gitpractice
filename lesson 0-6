@@ -1,0 +1,189 @@
+Last login: Tue Sep 12 20:31:03 on console
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ mkdir temp
+BSMEGGFWKAIR:~ jgables18$ mkdir temp/stuff
+BSMEGGFWKAIR:~ jgables18$ mkdir temp/stuff/things
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/stuff/things/orange/apple/pear/grape
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/cars
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/zebra
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/tuner
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Kerwin
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/"Jack Gables"
+BSMEGGFWKAIR:~ jgables18$ Mkdir -p temp/Field
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Andy
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/vikings
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/frost
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/RGB
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/throphy
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/lego
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/sweater
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Lexus
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Em
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/bike
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/truck
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Alpha
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Bravo
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/Pauly
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/ "I Have Fun"
+BSMEGGFWKAIR:~ jgables18$ mkdir -p temp/"I Have Fun"
+BSMEGGFWKAIR:~ jgables18$ cd temp
+BSMEGGFWKAIR:temp jgables18$ pwd
+/Users/jgables18/temp
+BSMEGGFWKAIR:temp jgables18$ cd stuff
+BSMEGGFWKAIR:stuff jgables18$ pwd
+/Users/jgables18/temp/stuff
+BSMEGGFWKAIR:stuff jgables18$ cd things
+BSMEGGFWKAIR:things jgables18$ pwd
+/Users/jgables18/temp/stuff/things
+BSMEGGFWKAIR:things jgables18$ cd orange
+BSMEGGFWKAIR:orange jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange
+BSMEGGFWKAIR:orange jgables18$ cd apple
+BSMEGGFWKAIR:apple jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange/apple
+BSMEGGFWKAIR:apple jgables18$ cd pear
+BSMEGGFWKAIR:pear jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange/apple/pear
+BSMEGGFWKAIR:pear jgables18$ cd grape
+BSMEGGFWKAIR:grape jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange/apple/pear/grape
+BSMEGGFWKAIR:grape jgables18$ cd ..
+BSMEGGFWKAIR:pear jgables18$ cd ..
+BSMEGGFWKAIR:apple jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange/apple
+BSMEGGFWKAIR:apple jgables18$ cd ..
+BSMEGGFWKAIR:orange jgables18$ cd ..
+BSMEGGFWKAIR:things jgables18$ pwd
+/Users/jgables18/temp/stuff/things
+BSMEGGFWKAIR:things jgables18$ cd ../../..
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd temp/stuff/things/orange/apple/pear/grape
+BSMEGGFWKAIR:grape jgables18$ pwd
+/Users/jgables18/temp/stuff/things/orange/apple/pear/grape
+BSMEGGFWKAIR:grape jgables18$ cd ../../../../../../../
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd/apple
+-bash: cd/apple: No such file or directory
+BSMEGGFWKAIR:~ jgables18$ cd  apple
+-bash: cd: apple: No such file or directory
+BSMEGGFWKAIR:~ jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd temp/stuff/orange/apple
+-bash: cd: temp/stuff/orange/apple: No such file or directory
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd temp/stuff/things/orange/apple
+BSMEGGFWKAIR:apple jgables18$ cd ../../../..
+BSMEGGFWKAIR:temp jgables18$ pwd
+/Users/jgables18/temp
+BSMEGGFWKAIR:temp jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ cd temp
+BSMEGGFWKAIR:temp jgables18$ ls
+Alpha		I Have Fun	RGB		stuff		vikings
+Andy		Jack Gables	bike		sweater		zebra
+Bravo		Kerwin		cars		throphy
+Em		Lexus		frost		truck
+Field		Pauly		lego		tuner
+BSMEGGFWKAIR:temp jgables18$ things
+-bash: things: command not found
+BSMEGGFWKAIR:temp jgables18$ ls
+Alpha		I Have Fun	RGB		stuff		vikings
+Andy		Jack Gables	bike		sweater		zebra
+Bravo		Kerwin		cars		throphy
+Em		Lexus		frost		truck
+Field		Pauly		lego		tuner
+BSMEGGFWKAIR:temp jgables18$ cd
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ 
+BSMEGGFWKAIR:~ jgables18$ pwd
+/Users/jgables18
+BSMEGGFWKAIR:~ jgables18$ cd temp
+BSMEGGFWKAIR:temp jgables18$ ls
+Alpha		I Have Fun	RGB		stuff		vikings
+Andy		Jack Gables	bike		sweater		zebra
+Bravo		Kerwin		cars		throphy
+Em		Lexus		frost		truck
+Field		Pauly		lego		tuner
+BSMEGGFWKAIR:temp jgables18$ cd stuff
+BSMEGGFWKAIR:stuff jgables18$ ls
+things
+BSMEGGFWKAIR:stuff jgables18$ cd things
+BSMEGGFWKAIR:things jgables18$ ls
+orange
+BSMEGGFWKAIR:things jgables18$ cd oragne
+-bash: cd: oragne: No such file or directory
+BSMEGGFWKAIR:things jgables18$ cd orange
+BSMEGGFWKAIR:orange jgables18$ ls
+apple
+BSMEGGFWKAIR:orange jgables18$ cd apple
+BSMEGGFWKAIR:apple jgables18$ ls
+pear
+BSMEGGFWKAIR:apple jgables18$ cd pear
+BSMEGGFWKAIR:pear jgables18$ ls
+grape
+BSMEGGFWKAIR:pear jgables18$ cd grape
+BSMEGGFWKAIR:grape jgables18$ ls
+BSMEGGFWKAIR:grape jgables18$ cd ..
+BSMEGGFWKAIR:pear jgables18$ ls
+grape
+BSMEGGFWKAIR:pear jgables18$ cd ../../../
+BSMEGGFWKAIR:things jgables18$ ls
+orange
+BSMEGGFWKAIR:things jgables18$ cd ../../
+BSMEGGFWKAIR:temp jgables18$ ls
+Alpha		I Have Fun	RGB		stuff		vikings
+Andy		Jack Gables	bike		sweater		zebra
+Bravo		Kerwin		cars		throphy
+Em		Lexus		frost		truck
+Field		Pauly		lego		tuner
+BSMEGGFWKAIR:temp jgables18$ 
