@@ -20,4 +20,4 @@ print "How about some more."
 
 print "Is it greater?" , 5 > -2
 print "Is it greater or equal?", 5 >= -2
-print "Is it less or equal?", 5<= -2
+print "Is it less or equal?", 5 <= -2
