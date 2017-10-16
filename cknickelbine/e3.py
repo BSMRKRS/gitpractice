@@ -1,9 +1,8 @@
-from decimal import Decimal, localcontext
+from decimal import Decimal, localcontext #imports the libraries for decimals
 
 def i(): #defines i as the number
-    total = 0
+    total = 0 #starts the count
     for x in range(1,100): #first 100 numbers in the sequence
-        print x
         with localcontext() as ctx:
             ctx.prec = 105 #has to be 105 otherwise it isnt precise enough
             if len(str(Decimal(x).sqrt())) == 1: #square rt of the number
