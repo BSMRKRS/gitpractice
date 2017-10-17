@@ -1,3 +1,6 @@
+import time
+begin = time.time()
+
 from decimal import Decimal, localcontext #imports the libraries for decimals
 
 def i(): #defines i as the number
@@ -12,3 +15,7 @@ def i(): #defines i as the number
                 total+=a
     return total
 print i()
+
+elapsed = (time.time() - begin)
+
+print elapsed

@@ -1,3 +1,6 @@
+import time
+begin = time.time()
+#turned the trangle into a number
 number = '''75
 95 64
 17 47 82
@@ -15,15 +18,21 @@ number = '''75
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23'''
 
 number = number.strip().split('\n')
-
+#splits the number into strands and then into intigers
 for j in range(1, len(number)):
     number[j] = number[j].strip().split(' ')
     number[j] = [int(x) for x in number[j]]
-
+#defines the first number where the program should start as 75
 number[0] = [75]
-
+#for all of the lines 0-14 stry i
 for k in range(len(number[j]) -1, -1, -1):
     for i in range(0,k):
+        #for number take one less than it add up the ajacent numbers
+        #adds up all of the biggest numbers and sets that as j k
         number[k - 1][i] += max(number[k][i], number[k][i + 1])
-
+#take the number and print the answer
 print number[k][i]
+
+elapsed = (time.time() - begin)
+
+print elapsed

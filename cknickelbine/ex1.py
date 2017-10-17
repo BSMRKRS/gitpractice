@@ -1,3 +1,6 @@
+import time
+begin = time.time()
+
 number = [
  [75],
  [95, 64],
@@ -20,3 +23,7 @@ for k in range(len(number) -1, -1, -1):
         number[k - 1][i] += max(number[k][i], number[k][i + 1])
 
 print number[k][i]
+
+elapsed = (time.time() - begin)
+
+print elapsed
