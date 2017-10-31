@@ -1,1 +1,17 @@
+10.2.1
+Clone a repository:
+Cloning a repository is downloading a copy of the repository and all its contents such that you can make changes without directly affecting the original reposotory
+
+10.2.2
+Creating a branch:
+Creating a branch of a repository is creating a second version of that repository that can be directly compared to the original.
+In addition it is typically where a specific user make their changes to the code without affecting the code of any other thereby acting as a suggestion.
+
+10.2.3
+Commiting changes
+Commiting changes is the action of saving a difference between your branch and the original master branch on your computer.
+
+10.2.4
+Pushing to the remote repository
+Pushing to a remote repository is sending the branch from your computer/local network to the location that the main code is stored on thereby allowing for everyone to see it.
 
