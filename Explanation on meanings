@@ -13,5 +13,5 @@ Commiting changes is the action of saving a difference between your branch and t
 
 10.2.4
 Pushing to the remote repository
-Pushing to a remote repository is merging the branch from your computers branch with the remote storage of the code.
+Pushing to a remote repository is sending the branch from your computers branch to the remote storage of the code allowing it to be merged with the master branch.
 
