@@ -1,0 +1,5 @@
+Ellie Krueger
+Engineering 2, pd. 5
+November 1, 2017
+				Commiting
+Commiting changes is basically saving what you did to the branch that you did it in. Say you created a new document, or added to a document, etc. You would have to commit these changes in order for them to be saved. If you're on the website or desktop, you just need to add a comment about why you made the changes you did and click "commit". On terminal, you need to say "git commit filename". If you're commiting over terminal, you also have to make sure that the files that you're commiting have been added to your repo. In order to check the status, say "git status". To add a file, say "git add filename".
