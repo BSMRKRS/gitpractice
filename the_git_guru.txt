@@ -5,6 +5,7 @@ Please add a question below. If it's an especially good question -- or a questio
 
 Q: What does cloning a repo do?
 
+Q: What is the answer to life, the universe, and everything? 
 
 #################
 ## Past questions
