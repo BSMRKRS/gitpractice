@@ -1,0 +1,6 @@
+Annabelle Hilson
+Engineering 2 : Pd. 5
+7 November 2017
+
+Push to a remote:
+Pushing to a remote means that you are "moving" commits made on a branch to a remote repository. The remote repository can be any other branch that you aren't working on. In my case, the local branch I am working on is ahilson19 and the remote repository is the origin. By pushing my commits to the remote repository, the changes I have made can be seen on the origin. Pushing to a remote repository essentially applies your changes to a different branch. You can push to a remote repository by using git push on git desktop.
