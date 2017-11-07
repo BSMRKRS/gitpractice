@@ -1,0 +1,6 @@
+Annabelle Hilson
+Engineering 2, Pd. 5
+November 1, 2017
+
+Cloning:
+Cloning a repository is essentially duplicating an existing repository to have a copy of it on your computer. After I cloned gitpractice I could create new branches or commit changes on my computer and then push them to the original.

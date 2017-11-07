@@ -1,0 +1,6 @@
+Annabelle Hilson
+Engineering 2, Pd. 5
+1 November, 2017
+
+Branching:
+Branching is a way of splitting off from the main code to work on code in a different place. By branching, code on the main branch is not changed when other branches are editted until the changes have been committed to the main branch. I created a branch by typing git checkout -b "branch name". This allowed me to work on the project on my computer while other people worked on the same project. By creating a new branch the code I wrote was not confused with other code that was being written by other people. 
