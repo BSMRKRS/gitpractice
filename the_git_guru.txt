@@ -16,5 +16,5 @@ A: Someone will always be in charge of the master branch. It may be the reposito
 Q: Are master and origin the same thing?
 A:
 
-Q: What is your name?
+Q:How do I switch from branch to branch, without making a new branch?
 A: 
