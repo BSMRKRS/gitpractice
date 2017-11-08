@@ -3,12 +3,9 @@ Please add a question below. If it's an especially good question -- or a questio
 
 ### Put your question here!
 
-Q: What’s the statistical probability that I have no idea what I’m doing?
+Q: What’s the difference between atom, vi, and nano?
 
-Q: How many pieces of pie could you eat if you were in space?
-
-Q: What is the answer to life, the universe, and everything? 
-
+Q: Would it be weird if ducks had arms or what?
 
 #################
 ## Past questions
