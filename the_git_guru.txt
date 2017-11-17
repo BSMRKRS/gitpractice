@@ -25,5 +25,4 @@ Q: what is your favorite color?
 A: Blue
 
 Q: If a vaccum doesn't work, does it suck?
-A: 
-
+A: No and yes.
