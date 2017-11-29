@@ -4,22 +4,25 @@ Please add a question below. If it's an especially good question -- or a questio
 ### Put your question here!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Q: How many pieces of pie could you eat if you were in space?
 Q: Can I push to branches other than the master?
 =======
 Q: What does cloning a repo do?
 
-Q: What is the answer to life, the universe, and everything?  
+Q: What is the answer to life, the univers, and everything?
 
-Q: How come it's so hard to reach the moon again? 
+Q: How come it's so hard to reach the moon again?
 
-Q: When will enginneering make sense to me?
+Q: When will engineering make sense to me?
 
 
 Thomas bro come edit this stuff!!!!
 
 >>>>>>> b21dce5bf8ddfca43a2b68e58d6aa1755fff00fd
 
+=======
+>>>>>>> 32aad3aa49f4ee59dd801cbc683ce845e3007f9c
 #################
 ## Past questions
 #################
@@ -27,6 +30,7 @@ Thomas bro come edit this stuff!!!!
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
 
+Q: Are master and origin the same thing?
 Q: How do I push to someone else's github?
 A:
 
