@@ -1,0 +1,6 @@
+Annabelle
+Engineering 2: Pd. 5
+7 November 2017
+
+Committing:
+Committing a change is saving the changes onto the branch. When committing you can save any changes you have made and make a comment on them. Commenting on the commits tells other people working on the code what changes have been made and why you made them. Commenting on the commits is very helpful to the other people working on the code. You commit a change by typing git commit -m "branch_name".
