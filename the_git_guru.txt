@@ -3,9 +3,6 @@ Please add a question below. If it's an especially good question -- or a questio
 
 ### Put your question here!
 
-Q: How many pieces of pie could you eat if you were in space?
-Q: Can I push to branches other than the master?
-
 #################
 ## Past questions
 #################
@@ -13,5 +10,5 @@ Q: Can I push to branches other than the master?
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
 
-Q: Are master and origin the same thing?
+Q: How do I push to someone else's github?
 A:
