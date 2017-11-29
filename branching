@@ -1,0 +1,6 @@
+Ellie Krueger
+Engineering 2, pd. 5
+November 1, 2017
+				Branching
+Since I was working on my terminal/desktop instead of on the website, I made a new branch by typing the command "git checkout -b branchname". However, on the Github website, you can make a new branch by clicking the new branch button.
+Creating a new branch is useful because it allows many people to contribute on a project at once without it getting too confusing. Creating a new branch makes an exact copy of the original branch as it was, and allows the user to make changes to the code that are saved on the new branch but not the original. This means that if you make a mistake on the branch, the code from before will still be there as a backup. It also makes it easier to retrace steps. Furthermore, it allows multiple people to work on the same project at the same time, since they can all be working on different theories or aspects on different branches and combine them all at the end, since changes in branches can be added back into the original branch.
