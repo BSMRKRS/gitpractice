@@ -13,6 +13,8 @@ Q: When will enginneering make sense to me?
 
 Q: Why won't terminal allow me to push back to origin?
 
+Q: Who shot first?
+A:
 
 #################
 ## Past questions
