@@ -1,6 +1,6 @@
 #This should get the robot to stop
-import RoboPiLib as RPL
 import setup
+import RoboPiLib as RPL
 
 motorL = 0
 motorR = 1
