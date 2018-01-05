@@ -19,3 +19,5 @@ elif close is 1:
         RPL.servoWrite(motorL, 1000)
     except:
         raise ValueError("something weird happened")
+else:
+    raise ValueError("what")
