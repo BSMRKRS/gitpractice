@@ -1,13 +1,29 @@
 Welcome to the Git Guru!
-Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
-
+Pleit 
 ### Put your question here!
+
+Q: What does cloning a repo do?
+
+Q: What is the answer to life, the universe, and everything?
+
+Q: How come it's so hard to reach the moon again?
+
+Q: When will enginneering make sense to me?
+
+Q: Why won't terminal allow me to push back to origin?
+
+Q: Is water wet?
 
 #################
 ## Past questions
 #################
 
-
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
 
+Q: How do I push to someone else's github?
+A:
+
+Q: what is your favorite color?
+A: Blue
+A: Purple
