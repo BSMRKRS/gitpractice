@@ -8,7 +8,7 @@ motorR = 0
 
 thing = 0
 
-while thing = 0:
+while thing is 0:
     if close is 0:
         try:
             RPL.servoWrite(motorR, 0)
