@@ -15,7 +15,7 @@ while thing is 0:
             RPL.servoWrite(motorL, 0)
         except:
             raise ValueError("something weird happened")
-        elif close is 1:
+    elif close is 1:
             try:
                 RPL.servoWrite(motorR, 1000)
                 RPL.servoWrite(motorL, 2000)
