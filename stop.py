@@ -24,3 +24,5 @@ while thing is 0:
     else:
         try:
             RPL.digitalRead(16)
+        except:
+            raise ValueError("something weird happened with the repeat")
