@@ -17,12 +17,8 @@ while thing is 0:
             raise ValueError("something weird happened")
     elif close is 1:
             try:
-                RPL.servoWrite(motorR, 1000)
-                RPL.servoWrite(motorL, 2000)
+                RPL.digitalRead(16)
             except:
                 raise ValueError("something weird happened")
     else:
-        try:
-            RPL.digitalRead(16)
-        except:
-            raise ValueError("something weird happened with the repeat")
+        raise ValueError("something weird happened")
