@@ -16,6 +16,6 @@ while True:
             raise ValueError("something weird happened")
     elif close is 1:
             try:
-                return close
+                close
             except:
                 raise ValueError("something weird happened")
