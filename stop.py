@@ -6,12 +6,11 @@ close = RPL.digitalRead(16)
 motorL = 1
 motorR = 0
 
-thing = 0
-while True:
-    close == 0
-    while True:
-        try:
-            RPL.servoWrite(motorR, 2000)
-            RPL.servoWrite(motorL, 1000)
-        except:
-            raise ValueError("Something went wrong")
+if close is 0:
+    try:
+        RPL.servoWrite(motorR, 0)
+        RPL.servoWrite(motorL, 0)
+    except:
+        raise ValueError("something weird happened")
+elif close is 1:
+    print " "
