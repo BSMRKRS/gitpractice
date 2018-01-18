@@ -2,6 +2,7 @@ import setup
 import RoboPiLib as RPL
 
 numbers = []
+thing = 0
 thing < 1000
 while True:
     thing = thing + 1
