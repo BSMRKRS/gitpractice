@@ -14,3 +14,14 @@ while True:
             RPL.servoWrite(motorL, 0)
         except:
             raise ValueError("something weird happened")
+    elif close is 1:
+        try:
+            close
+            if close is 0:
+                try:
+                    RPL.servoWrite(motorR, 0)
+                    RPL.servoWrite(motorR, 0)
+                except:
+                    raise ValueError("Ugh")
+        except:
+            raise ValueError("Hnggg")
