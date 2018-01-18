@@ -1,8 +1,8 @@
 import setup
 import RoboPiLib as RPL
-import timer
+import time
 
-if timer % 4:
+if time % 4:
     try:
         RPL.servoWrite(0, 2000)
         RPL.servoWrite(1, 1000)
