@@ -2,7 +2,7 @@ import setup
 import RoboPiLib as RPL
 
 close = RPL.digitalRead(16)
-motorL = 1
+motorL = 2
 motorR = 0
 
 while close is 0:
