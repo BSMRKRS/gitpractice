@@ -7,9 +7,11 @@ motorR = 0
 
 thing = 0
 while thing is 0:
-    while close is 0:
+    if close is 0:
         RPL.servoWrite(motorL, 1000)
         RPL.servoWrite(motorR, 2000)
+        print "go"
     if close is 1:
         RPL.servoWrite(motorL, 0)
         RPL.servoWrite(motorR, 0)
+        print "stop"
