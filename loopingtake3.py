@@ -12,6 +12,8 @@ while thing is 0:
         RPL.servoWrite(motorR, 2000)
         print "go"
     if close is 1: # perpetually prints "stop", is always reading 1
-        RPL.servoWrite(motorL, 0)
-        RPL.servoWrite(motorR, 0)
-        print "stop"
+        try:
+            RPL.servoWrite(motorL, 0)
+            RPL.servoWrite(motorR, 0)
+        except:
+            print "stop"
