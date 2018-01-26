@@ -1,7 +1,7 @@
 import setup
 import RoboPiLib as RPL
 
-close = RPL.digitalRead(16)
+close = RPL.digitalRead(17)
 motorL = 2
 motorR = 0
 
