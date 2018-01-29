@@ -5,12 +5,9 @@ close = RPL.digitalRead(16)
 motorL = 1
 motorR = 0
 
-thing = 0
-while close is 1:
-    RPL.servoWrite(motorL, 1000)
-    RPL.servoWrite(motorR, 2000)
-    print "go"
-    if close is 0:
+while close != 1:
+    close = RPL.digitalRead(16)
+if close is 1:
+    try:
         RPL.servoWrite(motorL, 0)
         RPL.servoWrite(motorR, 0)
-        print "stop"
