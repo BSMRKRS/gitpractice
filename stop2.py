@@ -15,7 +15,7 @@ def stop(close):
 
 goNow = stop(RPL.digitalRead(16))
 
-while motorL == 2:
+while True:
     RPL.servoWrite(motorR, 1000)
     RPL.servoWrite(motorL, 2000)
     stop(RPL.digitalRead(16))
