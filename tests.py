@@ -22,4 +22,4 @@ elif close is 1:
 while close is 0:
     print close
 while close is 1:
-    print close
+    break
