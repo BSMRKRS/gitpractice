@@ -13,10 +13,11 @@ def stop(close):
             RPL.servoWrite(motorL, 0)
         except:
             raise ValueError("something weird happened")
-    elif close is 1:
-        print " "
 
 while motorL is 2:
     RPL.servoWrite(motorR, 1000)
     RPL.servoWrite(motorL, 2000)
     stop(close)
+    if close is 1:
+        break
+        print "It broke."
