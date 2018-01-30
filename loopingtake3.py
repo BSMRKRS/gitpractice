@@ -11,3 +11,5 @@ if close is 1:
     try:
         RPL.servoWrite(motorL, 0)
         RPL.servoWrite(motorR, 0)
+    except:
+        raise ValueError("something weird happened")
