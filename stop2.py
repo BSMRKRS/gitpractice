@@ -16,7 +16,7 @@ def stop(close):
     elif close is 1:
         print " "
 
-if motorL = 2:
+while motorL is 2:
     RPL.servoWrite(motorR, 1000)
     RPL.servoWrite(motorL, 2000)
     stop(close)
