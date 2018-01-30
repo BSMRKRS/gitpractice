@@ -6,7 +6,7 @@ close = RPL.digitalRead(16)
 motorL = 2
 motorR = 0
 
-def stop()
+def stop():
     if close is 0:
         try:
             RPL.servoWrite(motorR, 0)
