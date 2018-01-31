@@ -23,6 +23,3 @@ while True:
         RPL.servoWrite(motorR, 0)
         RPL.servoWrite(motorL, 0)
         print "there's something."
-    ch = sys.stdin.read(1) # this reads one character of input without requiring an enter keypress
-    if ch == '*': # pressing the asterisk key kills the process
-      break # this ends the loop
