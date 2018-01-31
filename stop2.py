@@ -22,5 +22,5 @@ while True:
         RPL.servoWrite(motorR, 1000)
         RPL.servoWrite(motorL, 2000)
         print "there's nothing"
-        if close == 1:
+        if close == 0:
             break
