@@ -5,7 +5,7 @@ close = RPL.digitalRead(16)
 motorL = 1
 motorR = 0
 
-for x in xrange(0, 1000000000):
+for x in xrange(0, 1000):
     if close is 1:
         RPL.servoWrite(motorR, 2000)
         RPL.servoWrite(motorL, 1000)
