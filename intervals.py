@@ -1,13 +1,9 @@
 import setup
 import RoboPiLib as RPL
+import time
+timer = time.time()
 
-numbers = []
-thing = 0
-thing < 1000
-while True:
-    thing = thing + 1
-    numbers.append(thing)
-if thing % 4:
+if timer % 5:
     try:
         RPL.servoWrite(0, 2000)
         RPL.servoWrite(1, 1000)
