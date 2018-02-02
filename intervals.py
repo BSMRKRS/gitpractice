@@ -14,5 +14,5 @@ while time > 5:
     RPL.servoWrite(motorL, 0)
     RPL.servoWrite(motorR, 0)
     if time is 10:
-        time == 0
+        time = 0
         break
