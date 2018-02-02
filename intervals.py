@@ -2,17 +2,17 @@ import setup
 import RoboPiLib as RPL
 import time
 timer = time.time()
+motorL = 1
+motorR = 0
 
-while True:
-    if timer % 5:
-        try:
-            RPL.servoWrite(0, 2000)
-            RPL.servoWrite(1, 1000)
-        except:
-            raise ValueError("something went wrong")
-        else:
-            try:
-                RPL.servoWrite(0, 0)
-                RPL.servoWrite(1, 0)
-            except:
-                raise ValueError("something went wrong")
+while time < 5:
+    RPL.servoWrite(motorL, 1000)
+    RPL.servoWrite(motorR, 2000)
+    if time > 5:
+        break
+while time > 5:
+    RPL.servoWrite(motorL, 0)
+    RPL.servoWrite(motorR, 0)
+    if time is 10:
+        time == 0
+        break
