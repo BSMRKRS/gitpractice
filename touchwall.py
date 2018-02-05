@@ -7,7 +7,8 @@ close = RPL.digitalRead(16)
 motorL = 1
 motorR = 2
 
-RPL.servoWrite(motorL, x)
+RPL.servoWrite(motorL, 1000)
+RPL.servoWrite(motorR, 2000)
 
 while True:
     while RPL.digitalRead(16) == 0:
