@@ -17,13 +17,13 @@ motorL = 2
 motorR = 1
 #to run motors
 RPL.servoWrite(motorR, 2000)
-RPL.servoWrite(motorL, 500)
+RPL.servoWrite(motorL, 1000)
 # R 2000 is forward
 # L 1000 is forward
 
 while True:
     RPL.servoWrite(motorR, 2000)
-    RPL.servoWrite(motorL, 500)
+    RPL.servoWrite(motorL, 1000)
     while RPL.digitalRead(16) == 0: # something ahead, pivot
         RPL.servoWrite(motorL, 2000)
     while RPL.digitalRead(16) == 1:
