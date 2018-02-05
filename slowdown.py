@@ -1,5 +1,5 @@
 import setup
-import RoboPiLib
+import RoboPiLib as RPL
 
 close = RPL.digitalRead(16)
 
