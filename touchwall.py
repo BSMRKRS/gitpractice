@@ -3,7 +3,7 @@ import RoboPiLib as RPL
 import time
 
 timer = time.time()
-more-time = timer + 5
+moretime = timer + 5
 close = RPL.digitalRead(16)
 motorL = 1
 motorR = 2
@@ -18,7 +18,7 @@ while True:
             RPL.servoWrite(motorR, 100)
             print "Slowing"
             timer = timer + 1
-        while timer == more-time:
+        while timer == moretime:
             RPL.servoWrite(motorL, 0)
             RPL.servoWrite(motorR, 0)
             print "Stopping"
