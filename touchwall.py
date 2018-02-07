@@ -2,27 +2,30 @@ import setup
 import RoboPiLib as RPL
 import time
 
-timer = time.time()
-more-time = timer + 5
+now = time.time()
+future = now
+futureplus = now
 close = RPL.digitalRead(16)
 motorL = 1
 motorR = 2
+x = 0
 
 RPL.servoWrite(motorL, 2000)
 RPL.servoWrite(motorR, 1000)
 
 while True:
     while RPL.digitalRead(16) == 0:
-        while timer < 100000000000000:
-            RPL.servoWrite(motorL, 1600)
-            RPL.servoWrite(motorR, 100)
-            print "Slowing"
-            timer = timer + 1
-        while timer == more-time:
-            RPL.servoWrite(motorL, 0)
-            RPL.servoWrite(motorR, 0)
-            print "Stopping"
+        future = time.time() + 5
+        futureplus = future + 5
+        while time.time() < future:
+            RPL.servoWrite(0, 2000)
+            RPL.servoWrite(1, 1000)
+        while time.time() > future and time.time() < futureplus:
+            RPL.servoWrite(0, 0)
+            RPL.servoWrite(1, 0)
+        x = x + 1
+        while x == 10:
+            break
     while RPL.digitalRead(16) == 1:
         RPL.servoWrite(motorL, 2000)
         RPL.servoWrite(motorR, 1000)
-        print "Going"
