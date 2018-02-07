@@ -24,7 +24,7 @@ while True:
             RPL.servoWrite(2, 0)
             RPL.servoWrite(1, 0)
         x = x + 1
-        while x == 10:
+        while x == 1:
             break
     while RPL.digitalRead(16) == 1:
         RPL.servoWrite(1, 2000)
