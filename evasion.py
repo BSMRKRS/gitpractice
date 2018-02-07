@@ -30,8 +30,10 @@ while True:
         if RPL.digitalRead(24) == 1: # nothing ahead and nothing to right, go straight
             RPL.servoWrite(motorL, 1000)
         if RPL.digitalRead(24) == 0: # nothing ahead but something to right, turn until nothing
-            RPL.servoWrite(motorL, 0)
+            RPL.servoWrite(motorL, 2000)
 
 
-# problem: sensor not picking up walls
+# possible problem: sensor not picking up walls
 # problem: so far only works on right side
+
+# PROBLEM: motorL not turning on, unless it's going backwards becauase there's something ahead
