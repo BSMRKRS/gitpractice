@@ -3,7 +3,7 @@ import RoboPiLib as RPL
 import time
 
 timer = time.time()
-more-time = time.time() + 5
+more-time = timer + 5
 close = RPL.digitalRead(16)
 motorL = 1
 motorR = 2
