@@ -15,9 +15,11 @@ while True:
         while timer < 1000:
             RPL.servoWrite(motorL, 1600)
             RPL.servoWrite(motorR, 100)
+            print timer
         while timer >= 1000:
             RPL.servoWrite(motorL, 0)
             RPL.servoWrite(motorR, 0)
+            print timer
     while RPL.digitalRead(16) == 1:
         RPL.servoWrite(motorL, 2000)
         RPL.servoWrite(motorR, 1000)
