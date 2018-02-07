@@ -5,7 +5,7 @@ import setup
 import RoboPiLib as RPL
 
 front = 16
-right = 24
+right = 23
 
 # idea: if reading from right and front, turn off left motor
 # and vice versa
@@ -24,10 +24,8 @@ while True:
     RPL.servoWrite(motorL, 1000)
     while RPL.digitalRead(16) == 0: # something ahead or to right, pivot
         RPL.servoWrite(motorL, 2000)
-        print "oooooooo"
-    while RPL.digitalRead(24) == 0:
+    while RPL.digitalRead(23) == 0:
         RPL.servoWrite(motorL, 2000)
-        print "mmmmmmm"
 
 
 # possible problem: sensor not picking up walls
