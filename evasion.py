@@ -24,13 +24,8 @@ RPL.servoWrite(motorL, 1000)
 while True:
     RPL.servoWrite(motorR, 2000)
     RPL.servoWrite(motorL, 1000)
-    while RPL.digitalRead(16) == 0: # something ahead, pivot
+    while RPL.digitalRead(16) == 0 or RPL.digitalRead(24) == 0: # something ahead or to right, pivot
         RPL.servoWrite(motorL, 2000)
-    while RPL.digitalRead(16) == 1:
-        if RPL.digitalRead(24) == 1: # nothing ahead and nothing to right, go straight
-            RPL.servoWrite(motorL, 1000)
-        if RPL.digitalRead(24) == 0: # nothing ahead but something to right, turn until nothing
-            RPL.servoWrite(motorL, 2000)
 
 
 # possible problem: sensor not picking up walls
