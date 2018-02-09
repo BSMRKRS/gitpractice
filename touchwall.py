@@ -4,7 +4,6 @@ import time
 
 now = time.time()
 future = now
-futureplus = now
 close = RPL.digitalRead(16)
 motorL = 1
 motorR = 2
@@ -14,18 +13,14 @@ RPL.servoWrite(1, 2000)
 RPL.servoWrite(2, 1000)
 
 while True:
+    future = time.time() + 5
     while RPL.digitalRead(16) == 0:
-        future = time.time() + 5
-        futureplus = future + 5
         while time.time() < future:
-            RPL.servoWrite(1, 2000)
-            RPL.servoWrite(2, 1000)
-        while time.time() > future and time.time() < futureplus:
-            RPL.servoWrite(2, 0)
-            RPL.servoWrite(1, 0)
-        x = x + 1
-        while x == 1:
-            break
+            RPL.servoWrite(motorL, 2000)
+            RPL.servoWrite(motorR, 1000)
+        while time.time() >= future:
+            RPL.servoWrite(motorR, 0)
+            RPL.servoWrite(motorL, 0)
     while RPL.digitalRead(16) == 1:
         RPL.servoWrite(1, 2000)
         RPL.servoWrite(2, 1000)
