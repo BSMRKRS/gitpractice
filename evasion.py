@@ -8,7 +8,7 @@ import time
 now = time.time()
 future = now
 
-front = 16
+front = 17
 right = 23
 
 # idea: if reading from right and front, turn off left motor
@@ -25,12 +25,12 @@ while True:
     RPL.servoWrite(motorR, 2000)
     RPL.servoWrite(motorL, 1000)
     future = time.time() + 2
-    if RPL.digitalRead(16) == 0 or RPL.digitalRead(23) == 0: # something ahead or to right, pivot
-        RPL.servoWrite(motorL, 0)
-        RPL.servoWrite(motorR, 0)
-        while time.time() < future:
-            RPL.servoWrite(motorR, 2000)
-
+    if RPL.digitalRead(17) == 0: # or RPL.digitalRead(23) == 0: # something ahead or to right, pivot
+        while True:
+            RPL.servoWrite(motorL, 2000)
+            if time.time() > future:
+                break
+                print "it worked?"
 
 
 # possible problem: sensor not picking up walls
