@@ -24,10 +24,11 @@ motorR = 1
 while True:
     RPL.servoWrite(motorR, 2000)
     RPL.servoWrite(motorL, 1000)
-    future = time.time() + 2
+    future = time.time() + 1
     if RPL.digitalRead(17) == 0: # or RPL.digitalRead(23) == 0: # something ahead or to right, pivot
         while True:
             RPL.servoWrite(motorL, 2000)
+            RPL.servoWrite(motorR, 1600)
             if time.time() > future:
                 break
                 print "it worked?"
