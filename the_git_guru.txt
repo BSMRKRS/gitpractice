@@ -1,7 +1,10 @@
 Welcome to the Git Guru!
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
-### Put your question here!
+##Put your question here!
+
+Q: What school does Morgan go to?
+A: Morgan goes to Benilde St. Margarets. She is a junior. 
 
 #################
 ## Past questions
