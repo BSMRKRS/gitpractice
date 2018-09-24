@@ -2,7 +2,7 @@ Welcome to the Git Guru!
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
 ### Put your question here!
-
+Am I doing the right thing? 
 #################
 ## Past questions
 #################
