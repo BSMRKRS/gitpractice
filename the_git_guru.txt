@@ -2,7 +2,8 @@ Welcome to the Git Guru!
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
 ### Put your question here!
-Q: Is this working?
+Q: Can I go to RoboCup?
+A: I already told you son, unless you can come up with $6000 dollars yourself \nI don't think that will be possible
 
 #################
 ## Past questions
