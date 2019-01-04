@@ -10,6 +10,6 @@ Q: evalley20 asks, do you like to code?
 #################
 
 
-Q: When can I push to master?
-A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
+Q: Do you really like to code?
+A: Yes, this is my favortie class!
 
