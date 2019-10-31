@@ -6,7 +6,8 @@ Q: Is this working?
 Q: evalley20 asks, do you like to code?
 
 #################
-## Past questions
+Q: How old is Leonardo Jiménez?
+A: 16 years old
 #################
 
 
