@@ -2,14 +2,12 @@ Welcome to the Git Guru!
 Please add a question below. If it's an especially good question -- or a question with an especially good answer -- it might be added to the Git Guru for future generations to enjoy.
 
 ### Put your question here!
-Q: Is this working?
-Q: evalley20 asks, do you like to code?
-
-#################
-Q: How old is Leonardo Jiménez?
+Q: How old is Leonardo Jimenez?
 A: 16 years old
-#################
 
+#################
+## Past questions
+#################
 
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
