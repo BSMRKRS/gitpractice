@@ -13,3 +13,15 @@ Q: Proos23 asks, is coding cool?
 
 Q: When can I push to master?
 A: Someone will always be in charge of the master branch. It may be the repository owner; in big organizations, someone's job will be ensuring that master is always in working order. So unless you're the person in charge of master, don't push to it without permission.
+<<<<<<< HEAD
+=======
+
+Q: Are master and origin the same thing?
+A:
+
+Q: what is your favorite color?
+A: Blue
+
+Q: If a vaccum doesn't work, does it suck?
+A: No and yes.
+>>>>>>> 7670394480650f5ca866288f1513110c4da14c77
