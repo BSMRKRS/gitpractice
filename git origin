@@ -1,1 +1,6 @@
-git push <origin> <akamenshikova22>  
++git push <origin> <akamenshikova22>  
+
+git clone <url>
+git push <origin> <branch>  
+git pull . linux-work.  git push origin <branch>
+
